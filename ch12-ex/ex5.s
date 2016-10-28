@@ -17,5 +17,5 @@ main:
 	# 0x00fa ce00
 	
 	srl	$3, $1, 8  # Put 11 into the right byte position
-	andi	$3, $3, 0xf0
+	andi	$3, $3, 0xf0 # Bitmask to set everything but f to 0
 	or	$2, $3, $2
