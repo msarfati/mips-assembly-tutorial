@@ -17,8 +17,8 @@ def main():
 
     output_str = \
 """\
- {0}
- {1}\
+  {0}
+  {1}\
 """.format(generateWord(word_len), generateWord(word_len))
 
     print(output_str)
